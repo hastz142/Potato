@@ -1,0 +1,43 @@
+/* Importação já feita no topo.php */
+body {
+    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte que vc quer */
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte ao cabeçalho */
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte aos links do menu */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte ao rodapé */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
