@@ -1,17 +1,16 @@
 /* Importação já feita no topo.php */
 body {
-    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte que vc quer */
-    background-color: rgba(16, 13, 13, 0.621); /*cor da tela*/
+    font-family: 'Silkscreen', sans-serif; 
+    background-color: rgba(16, 13, 13, 0.621); 
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #2c2b8a; /*cor do balão*/
-    color: #5f2fc0; /*cor das barrinhas*/
+    background-color: #2c2b8a; 
+    color: #5f2fc0; 
     padding: 10px 0;
     text-align: center;
-    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte ao cabeçalho */
 }
 
 nav {
@@ -20,11 +19,25 @@ nav {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline; /* Itens do menu na horizontal */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
 nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
     font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte aos links do menu */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Muda a cor ao passar o mouse */
 }
 
 main {
@@ -36,12 +49,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte ao rodapé */
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-family: 'Silkscreen', sans-serif; /* Aplicando a fonte ao rodapé */
 }
 
 div {
     text-align: center;
+    line-height: 1.5; /* Melhorando a legibilidade */
 }
