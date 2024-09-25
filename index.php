@@ -1,3 +1,7 @@
+<head>
+<link rel="icon" href="https://escotilha.com.br/wp-content/uploads/2016/03/cronica-lua-nova-paulo-camargo-1024x840.jpeg" type="image/x-icon">
+
+</head>
 <?php
 echo "<!DOCTYPE html><html><head>";
 include_once("topo.php");
