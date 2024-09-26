@@ -1,0 +1,22 @@
+body {
+  font-family: 'Silkscreen', sans-serif;
+  background-color: #31223545;
+  font-size: 15px;
+  }
+
+.titulo {
+  text-align: center;
+}
+
+.container {
+  display: flex; /* Utiliza o Flexbox para organizar */
+  justify-content: space-between; /* Espaçamento igual entre eles */
+}
+
+.parte {
+  width: 47%; /* Define a largura de cada parte */
+  padding: 10px; /* Adiciona um pouco de espaço interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  margin: 10px; /* Adiciona espaço entre as partes */
+}
